@@ -1,0 +1,51 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid rgba($color: #5c6166, $alpha: 0.2);
+    box-shadow: 3px 5px 10px 1px rgba($color: #5c6166, $alpha: 0.2);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    user-select: none;
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+
+    aside {
+        width: 15%;
+        display: flex;
+        align-items: center;
+
+        p {
+            padding-left: 5px;
+            font-size: 10pt;
+        }
+    }
+
+    main {
+        width: 100%;
+        padding: 0px 10px;
+        text-align: left;
+        cursor: pointer;
+
+        p {
+            font-size: 14pt;
+        }
+
+        :hover {
+            color: rgba($color: #3399ff, $alpha: 1);
+        }
+
+        :active {
+            color: rgba($color: #3399ff, $alpha: 0.8);
+        }
+    }
+
+    .asideButtons {
+        justify-content: flex-end;
+    }
+}
