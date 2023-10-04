@@ -40,3 +40,10 @@ html {
   }
 }
 
+@media (max-width: 700px) {
+  html {  
+    h1 {
+      font-size: 50pt;
+    }
+  }
+}

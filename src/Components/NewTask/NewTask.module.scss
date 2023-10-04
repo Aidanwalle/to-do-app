@@ -1,17 +1,83 @@
 .wrapper {
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    .sectionName {
-        position: sticky;
-        top: 58px;
-        width: 98vw;
-        background-color: #f8f9fa;
-        box-shadow: 0px 10px 10px #f8f9fa;
-        margin-top: 30vh;
-        display: flex;
-        justify-content: center;
+  .sectionName {
+    position: sticky;
+    top: 58px;
+    width: 98vw;
+    text-align: center;
+    background-color: #f8f9fa;
+
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    img {
+      width: 25px;
+      height: 25px;
     }
+
+    .timeInputsWrapper {
+      border: 1px solid #5c6166;
+      border-radius: 5px;
+      padding: 10px;
+      width: 300px;
+    }
+
+    .timeInputsBlock {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      padding-top: 10px;
+
+      input {
+        margin: 0px 5px 0px 5px;
+        width: 40px;
+        height: 30px;
+        border: 1px solid #5c6166;
+        border-radius: 5px;
+        text-align: center;
+      }
+    }
+
+    .taskInputArea {
+      margin: 10px;
+      width: 400px;
+      height: 200px;
+      border: 1px solid #5c6166;
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    .submitButton {
+      background-color: #3399ff;
+      border-radius: 5px;
+      width: 90px;
+      height: 35px;
+    //   margin-bottom: 10px;
+      color: #f8f9fa;
+    }
+
+    .submitButton:hover {
+      opacity: 0.8;
+    }
+
+    .submitButton:active {
+      opacity: 1;
+    }
+  }
 }
+
+
