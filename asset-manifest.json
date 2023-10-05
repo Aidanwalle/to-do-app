@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/to-do-app/static/css/main.ccf78d27.css",
-    "main.js": "/to-do-app/static/js/main.b7f3aaa8.js",
+    "main.css": "/to-do-app/static/css/main.8995a079.css",
+    "main.js": "/to-do-app/static/js/main.1282981a.js",
     "static/js/787.28cb0dcd.chunk.js": "/to-do-app/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/to-do-app/index.html",
     "static/media/addBtn.svg": "/to-do-app/static/media/addBtn.72bab675235f59263ede68a91000def0.svg",
-    "main.ccf78d27.css.map": "/to-do-app/static/css/main.ccf78d27.css.map",
-    "main.b7f3aaa8.js.map": "/to-do-app/static/js/main.b7f3aaa8.js.map",
+    "main.8995a079.css.map": "/to-do-app/static/css/main.8995a079.css.map",
+    "main.1282981a.js.map": "/to-do-app/static/js/main.1282981a.js.map",
     "787.28cb0dcd.chunk.js.map": "/to-do-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccf78d27.css",
-    "static/js/main.b7f3aaa8.js"
+    "static/css/main.8995a079.css",
+    "static/js/main.1282981a.js"
   ]
 }
