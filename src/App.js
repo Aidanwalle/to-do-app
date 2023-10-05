@@ -65,7 +65,7 @@ function App() {
 
   return (
     <div className={'App'}>
-      <Header className='header' today={today} options={options} />
+      <Header className='header adaptive' today={today} options={options} />
       <div className='main'>
         <Routes>
           <Route path='/' element={
