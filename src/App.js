@@ -81,6 +81,19 @@ function App() {
               deleteTask={deleteAvaibleTask}
             />
           } />
+          <Route path='/to-do-app' element={
+            <Timer
+              hours={hours}
+              minutes={minutes}
+              avaibleTime={avaibleTime}
+              increaseHours={increaseHours}
+              increaseMinutes={increaseMinutes}
+              avaibleTasks={avaibleTasks}
+              resetClock={resetClock}
+              currentTaskList={currentTaskList}
+              deleteTask={deleteAvaibleTask}
+            />
+          } />
           <Route path='/tasks' element={
             <Tasks
               currentTaskList={currentTaskList}
