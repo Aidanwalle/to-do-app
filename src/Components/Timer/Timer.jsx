@@ -2,13 +2,15 @@ import React from 'react'
 import Task from '../Tasks/Task/Task'
 import Tasks from '../Tasks/Tasks'
 
+import classNames from 'classnames'
+
 import s from './Timer.module.scss'
 
 const Timer = ({ hours, minutes, avaibleTime, increaseHours, increaseMinutes, avaibleTasks, resetClock, deleteTask, currentTaskList }) => {
 
     return (
         <div className={s.wrapper}>
-            <div className={s.clock}>
+            <div className={classNames(s.clock, s.adaptive)}>
                 <h1><span onClick={increaseHours}>{hours}</span>ч <span onClick={increaseMinutes}>{minutes}</span>м</h1>
                 {avaibleTime ? <button onClick={resetClock}><p>Обнулить счетчик</p></button> : <p>Измените доступное время нажав на минуты или часы</p>
                 }

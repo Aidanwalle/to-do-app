@@ -34,12 +34,15 @@ const NewTask = ({ currentTaskList, setCurrentTaskList }) => {
           <p>Время на выполнение</p>
           <div className={s.timeInputsBlock}>
             <img src={hourglassIconDark} alt="Время на выполнение" />
-            <input {...register('hours')} placeholder="0" type="number" />
+            <input {...register('hours')} placeholder="0" type="number" min="0"/>
             <p>ч</p>
             <input
               {...register('minutes')}
               placeholder="15"
               type="number"
+              min="0"
+              max="55"
+              step="5"
               required
             />
             <p>мин</p>

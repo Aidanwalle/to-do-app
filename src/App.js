@@ -8,7 +8,7 @@ import Header from './Components/Header/Header';
 import Timer from './Components/Timer/Timer';
 import Tasks from './Components/Tasks/Tasks';
 
-import { taskList } from './Temp/TaskList'
+import { taskList } from './Temp/TaskList2'
 
 // Стили и изображения
 import './App.scss';
@@ -64,8 +64,8 @@ function App() {
   }, [hours, minutes, avaibleTime])
 
   return (
-    <div className={'App'}>
-      <Header className='header adaptive' today={today} options={options} />
+    <div className='App adaptive'>
+      <Header className='header' today={today} options={options} />
       <div className='main'>
         <Routes>
           <Route path='/' element={
